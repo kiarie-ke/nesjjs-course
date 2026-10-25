@@ -1,0 +1,24 @@
+### Get all songs
+GET http://localhost:3000/songs
+
+### Get one song
+GET http://localhost:3000/songs/1
+
+### Create song
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "title": "Song name"
+}
+
+### Update song
+PUT http://localhost:3000/songs/1
+Content-Type: application/json
+
+{
+  "title": "New name"
+}
+
+### Delete song
+DELETE http://localhost:3000/songs/1
